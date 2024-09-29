@@ -17,7 +17,7 @@ class List {
         int Size();
         void Retrieve(int p, Elemento &x);
         void Replace(int p, Elemento x);
-        bool taPesado(int novoPeso);
+        bool Aguenta(int novoPeso);
     private:
         int limitePeso;
         int count;

@@ -3,11 +3,8 @@
 
 using namespace std;
 
-#ifndef QUEUE_H
-#define QUEUE_H
-
 List::List() {
-    limitePeso = 16;
+    limitePeso = 14;
     count = 0;
 }
 
@@ -75,16 +72,15 @@ void List::Replace(int p, Elemento x) {
     Entry[p] = x;
 }
 
-bool List::taPesado(int novoPeso) {
+bool List::Aguenta(int novoPeso) {
+    Elemento Temp;
     int pesoAtual = 0;
+    
 
     for (int i = 1; i < count; i++) {
-        Elemento Temp;
         Retrieve(i, Temp);
         pesoAtual += Temp.Peso;
     }
     
     return (pesoAtual + novoPeso > limitePeso);
 }
-
-#endif

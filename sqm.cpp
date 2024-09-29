@@ -201,7 +201,7 @@ void SQM_Item(Heroi &Player, Stack &Mochila, List &Cinto) {
                 }
 
             } else {
-                if (Cinto.taPesado(Temp.Peso)) {
+                if (Cinto.Aguenta(Temp.Peso)) {
                     cout << "Item muito pesado, não cabe no cinto" << endl;
                     goto trocar;
                 }
