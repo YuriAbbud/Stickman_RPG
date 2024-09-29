@@ -1,0 +1,26 @@
+Objetivo do Jogo:
+O seu objetivo aqui e simples, *nao morrer*. Voce deve derrotar inimigos, coletar itens e, em ultima instancia,
+se tornar o heroi que todos acham que voce nasceu para ser.
+
+Mecanismos de Jogo:
+1. Batalhas:
+   - Voce se deparara com inimigos terriveis que, por algum motivo, acham que e uma boa ideia brigar com voce.
+   - Voce pode usar seu punho, sua mochila ou seu cinto para atacar. Nao se esqueca, se voce estiver sem itens, e hora de se preparar para uma luta de socos!
+
+2. Itens: 
+   - Voce encontrara armas e pocoes pelo caminho. Escolha entre descartar ou guardar no cinto ou na mochila.
+   Lembre-se: carregar um item pesado no cinto pode fazer voce parecer um verdadeiro desastrado.
+
+3. Mochila e Cinto: 
+   - Sua mochila e magica e armazena itens infinitos! Voce so pode acessar o item do topo e, se precisar de um item de baixo, tera que perder o que esta em cima.
+   - O cinto, e o seu aliado, nele voce pode escolher 3 itens para usar quando quiser.
+   Nao se esqueca de que voce pode trocar itens no cinto, mas tenha certeza de que nao esta colocando coisas pesadas demais.
+
+4. XP e Niveis: A cada inimigo derrotado, voce ganha XP. Depois de acumular XP suficiente, voce pode subir de nivel!
+Isso significa que voce pode se tornar ainda mais poderoso.
+
+Dicas Finais:
+- Pense antes de agir. Voce nao quer ser aquele heroi que entra em uma batalha sem um plano. Ou talvez queira...
+- Usar itens e a chave para a sobrevivencia. Se voce encontrar um item de cura, use-o antes de ser derrotado
+
+Pronto? Pegue sua espada (ou dedos) e comece a aventura! Boa sorte...

@@ -1,0 +1,6 @@
+Bem-vindo ao STICKMAN RPG!
+Este jogo foi criado por Yuri Abbud, que dedicou tantas horas ao desenvolvimento.
+E um projeto da disciplina de Estrutura de Dados do 4 semestre de Ciencia da Computacao.
+No inicio, era apenas uma atividade para aprimorar conhecimentos, mas Yuri decidiu transformar isso em uma verdadeira obra-prima.
+Esperamos que voce se divirta muito jogando, porque, sinceramente, estamos tentando justificar o tempo que Yuri passou em frente ao computador em vez de conseguir um emprego, fazer atividade fisica ou namorar.
+Divirta-se e, se possivel, envie uma mensagem de agradecimento ou relate algum erro a Yuri!
