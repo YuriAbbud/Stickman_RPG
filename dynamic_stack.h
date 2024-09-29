@@ -1,3 +1,10 @@
+#include <iostream>
+
+using namespace std;
+
+#ifndef DYNAMIC_STACK
+#define DYNAMIC_STACK
+
 #include "elemento.h"
 
 class Stack {
@@ -18,3 +25,5 @@ class Stack {
         typedef StackNode *StackPointer;
         StackPointer top;
 };
+
+#endif

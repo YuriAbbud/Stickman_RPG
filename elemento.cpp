@@ -1,7 +1,3 @@
-#include <cstdlib>
-#include <iostream>
-#include <string>
-
 #include "elemento.h"
 
 using namespace std;
@@ -28,8 +24,4 @@ Elemento::Elemento() {
         Peso = pocao_peso[index];
     }
     
-}
-
-Elemento::~Elemento() {
-    //Caso eu for fazer dinâmicamente
 }

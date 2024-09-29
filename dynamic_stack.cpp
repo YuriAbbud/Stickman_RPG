@@ -1,9 +1,4 @@
 #include "dynamic_stack.h"
-#include <iostream>
-using namespace std;
-
-#ifndef DYNAMIC_STACK_H
-#define DYNAMIC_STACK_H
 
 Stack::Stack() {
     top = NULL;
@@ -69,5 +64,3 @@ int Stack::Size() {
     }
     return s;
 }
-
-#endif

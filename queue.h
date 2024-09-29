@@ -1,3 +1,6 @@
+#ifndef QUEUE
+#define QUEUE
+
 #include "elemento.h"
 
 const int MaxList = 3;
@@ -20,3 +23,5 @@ class List {
         int count;
         Elemento Entry[MaxList + 1];
 };
+
+#endif

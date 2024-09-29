@@ -1,14 +1,15 @@
 #include <string>
+#include <cstdlib>
+#include <iostream>
 
 using namespace std;
 
-#ifndef ELEMENTO_H
-#define ELEMENTO_H
+#ifndef ELEMENTO
+#define ELEMENTO
 
 class Elemento {
     public:
         Elemento();
-        ~Elemento();
         bool tipo; // true = arma, false = poção
 
         string Nome;

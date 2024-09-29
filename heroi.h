@@ -1,5 +1,11 @@
 #include <string>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
+
+#ifndef HEROI
+#define HEROI
 
 class Heroi {
     public:
@@ -15,3 +21,5 @@ class Heroi {
         //Cinto
         //Mochila
 };
+
+#endif

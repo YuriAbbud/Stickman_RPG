@@ -1,12 +1,4 @@
 #include "inimigo.h"
-#include <iostream>
-#include <cstdlib>
-#include <string>
-
-using namespace std;
-
-#ifndef INIMIGO_H
-#define INIMIGO_H
 
 Inimigo::Inimigo(float mult) {
     int index = rand() % 3;
@@ -25,5 +17,3 @@ void Inimigo::ReceberDano(int dano) {
     
     cout << '\n' << Nome << " recebeu " << dano << " de dano" << endl;
 }
-
-#endif

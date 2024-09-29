@@ -1,12 +1,6 @@
 #include "heroi.h"
-#include <iostream>
-#include <string>
-#include <cmath>
 
 using namespace std;
-
-#ifndef HEROI_H
-#define HEROI_H
 
 Heroi::Heroi() {
     cout << "Digite o nome do Heroi: ";
@@ -34,7 +28,7 @@ void Heroi::LevelUp() {
         Mult = 1 + (Level - 1) * 0.2; //20%
 
         cout << "Level Up! " << Nome << " agora esta no nivel " << Level << endl;
-        cout << "MaxVida: "<< Vida_Max << " -> " << (Vida_Base * Mult) << "\nDano base: " << Dano_Base << " -> " << (Dano_Base * Mult) << endl;
+        cout << "MaxVida: "<< static_cast<int>(Vida_Max )<< " -> " << static_cast<int>(Vida_Base * Mult) << "\nDano base: " << static_cast<int>(Dano_Base) << " -> " << static_cast<int>(Dano_Base * Mult) << endl;
 
         Vida_Max = (Vida_Base * Mult);
         Vida_Atual = (Vida_Atual * Mult);
@@ -57,5 +51,3 @@ void Heroi::Curar(int Cura) {
     
     cout << Nome << " curou-se " << Cura << " pontos de vida\nVida atual: " << Vida_Atual << endl;
 }
-
-#endif
